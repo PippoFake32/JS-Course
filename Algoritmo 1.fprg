@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cresp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-20 02:49:31 "/>
+        <attribute name="created" value="Y3Jlc3A7UElQUE9YRkFLRTsyMDIxLTExLTIwOyIwMjoxNjoxNSAiOzI0Nzk="/>
+        <attribute name="edited" value="Y3Jlc3A7UElQUE9YRkFLRTsyMDIxLTExLTIwOyIwMjo0OTozMSAiOzE7MjU5MQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, ris" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n&gt;32">
+                <then>
+                    <assign variable="ris" expression="n + (n/2)^2"/>
+                </then>
+                <else>
+                    <assign variable="ris" expression="n + (n*2)^3"/>
+                </else>
+            </if>
+            <output expression="ris" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
