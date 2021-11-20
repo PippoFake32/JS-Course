@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cresp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-20 03:27:50 "/>
+        <attribute name="created" value="Y3Jlc3A7UElQUE9YRkFLRTsyMDIxLTExLTIwOyIwMjo0OTozMyAiOzI0ODU="/>
+        <attribute name="edited" value="Y3Jlc3A7UElQUE9YRkFLRTsyMDIxLTExLTIwOyIwMzoyNzo1MCAiOzE7MjU4OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, nass" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <if expression="n&gt;=0">
+                <then>
+                    <assign variable="nass" expression="n"/>
+                </then>
+                <else>
+                    <assign variable="nass" expression="-n"/>
+                </else>
+            </if>
+            <output expression="&quot;Il valore assoluto di &quot;" newline="False"/>
+            <output expression="n" newline="False"/>
+            <output expression="&quot; &#232; &quot;" newline="False"/>
+            <output expression="nass" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
